@@ -1,4 +1,6 @@
-#!/usr/bin/python3
-from bogo_one import bogo_sort
-lst = [2,3,1,5,4]
-print(bogo_sort(lst))
+#!/usr/bin/python
+import bogo1
+import random
+lst = [random.randrange(-5,5) for i in range(5)]
+lst = bogo1.sort(lst)
+print(lst)
