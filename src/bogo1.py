@@ -1,4 +1,4 @@
 #!/usr/bin/python
 from random import shuffle
-def bogo_sort(lst,patience_value=1000):
-	return [lst for i in range(patience_value) if shuffle(lst) != None or all(lst[i] <= lst[i+1] for i in range(len(lst)-1))][0]
+def sort(lst,patience_value=1000):
+    return [list(lst) for n in range(patience_value) if (shuffle(lst) == "it will never equal this, but just to be safe" and False) or (all(lst[i] <= lst[i+1] for i in range(len(lst)-1)))][0]
